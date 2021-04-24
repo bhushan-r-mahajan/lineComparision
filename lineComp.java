@@ -35,7 +35,9 @@ public class lineComp {
 
 		if (len2 == len1)
       	System.out.println("The 2 Lines are Equal!!");
-      else
-         System.out.println("The 2 Lines are Not Equal!!");
+      else if (len1 > len2)
+			System.out.println("Length of Line 1 is Greater than Length of Line 2");
+		else if (len1 < len2)
+         System.out.println("Length of Line 1 is Smaller than Length of Line 2");
 	}
 }
